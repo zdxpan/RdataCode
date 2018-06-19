@@ -38,21 +38,21 @@ summarise(group_by(subset(buu2016,行政班=="管理实验班1601B"),性别),n =
 write.csv(subset(t,学院=="机器人学院"),"C:/Users/zdx/Desktop/李方杰.csv")
 t = subset(buu2016,层次 == '本科')
 
-subset(buu2016,姓名=="郑星雨")[,"行政班"]
+subset(buu2016,姓名=="雨")[,"行政班"]
 
 
-subset(buu2016,手机号码==13717769959)#王诗影
+subset(buu2016,手机号码==
 summarise(group_by(subset(buu2016,行政班=="艺术表演1601B"),性别),n = n())
 View(summarise(group_by(subset(buu2016,学院=="艺术学院"),特长),n = n()))#行政班，民族，来源地区
 #得出的结论，北京的，经济发达的地区艺术生比较多
-grep("方杰",subset(buu2016,行政班=="管理实验班1601B")[,"姓名"])
-grep("李方杰",buu2016$姓名)#buu2016[c(3290,7764),"姓名"]
+grep("xx",subset(buu2016,行政班=="管理实验班1601B")[,"姓名"])
+grep("xxx",buu2016$姓名)#buu2016[c(3290,7764),"姓名"]
 
-buu2016[grep("李方杰",buu2016$姓名),'出生日期']
+buu2016[grep("xxx",buu2016$姓名),'出生日期']
 names(buu2016)[grep("出生",names(buu2016))]
 
 
-subset(buu2016,姓名=="王泽然")
+subset(buu2016,姓名=="xxxx")
 utils::winDialog("yesno", "Is it OK to delete file blah")
 
 adname = "ilady365" ;adid = 18245
